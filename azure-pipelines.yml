@@ -7,4 +7,4 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- script: ./build.sh
+- script: ./build.sh --info --stacktrace
